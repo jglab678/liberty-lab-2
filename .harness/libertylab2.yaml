@@ -6,7 +6,7 @@ pipeline:
     ci:
       codebase:
         connectorRef: jglab678repo
-        repoName: liberty-lab-1
+        repoName: liberty-lab-2
         build: <+input>
         sparseCheckout: []
   stages:
@@ -38,7 +38,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: dockerhub
-                    repo: jglab678/liberty-lab-1
+                    repo: jglab678/liberty-lab-2
                     tags:
                       - lab
     - stage:
