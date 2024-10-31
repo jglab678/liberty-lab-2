@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: liberty-lab-2
+  labels:
+    run: liberty-lab-2
+spec:
+  ports:
+  - port: 9080
+    protocol: TCP
+  selector:
+    run: liberty-lab-2
