@@ -42,7 +42,7 @@ pipeline:
                     tags:
                       - lab
     - stage:
-        name: Deploy
+        name: Deploy App
         identifier: Deploy
         description: ""
         type: Deployment
