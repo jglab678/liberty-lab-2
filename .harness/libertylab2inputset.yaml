@@ -1,0 +1,14 @@
+inputSet:
+  name: liberty-lab-2-input-set
+  identifier: libertylab2inputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: libertylab2
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
